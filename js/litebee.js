@@ -24,8 +24,8 @@
             [' ', 'Arm Flight','armFlight'],
 			[' ', 'Disarm Flight','disarmFlight'],
             [' ', 'Set run Motor %d.motorQuad at speed %d.motorPWM','runMotor', "LF", '30'],
-            [' ', 'Set go %d.flightDir at speed %d','runDirection', "Forward", '100'],
-            [' ', 'Set rotate %d.flightRotate at speed %d','runRotate', "CR", '100'],
+            [' ', 'Set go %d.flightDir at speed %d.speed','runDirection', "Forward", '100'],
+            [' ', 'Set rotate %d.flightRotate at speed %d.speed','runRotate', "CR", '100'],
             [' ', 'Set altitude at speed %d up','runAltitude','100'],
 			[' ', 'Set trim: pitch add %d.trimValue and roll add %d.trimValue', 'trimPitchAndRoll', '0', '0'],
 			[' ', 'Run set motor','runSet'],
@@ -48,8 +48,8 @@
             [' ', '电机解锁','armFlight'],
 			[' ', '电机上锁','disarmFlight'],
             [' ', '设置 %d.motorQuad 的电机的转速为 %d.motorPWM','runMotor', "左前方", '0'],
-            [' ', '设置让飞机往 %d.flightDir 以速度 %d 飞行','runDirection', "前边", '100'],
-            [' ', '设置让飞机往 %d.flightRotate 以速度 %d 旋转','runRotate', "顺时针", '100'],
+            [' ', '设置让飞机往 %d.flightDir 以速度 %d.speed 飞行','runDirection', "前边", '100'],
+            [' ', '设置让飞机往 %d.flightRotate 以速度 %d.speed 旋转','runRotate', "顺时针", '100'],
             [' ', '设置让飞机以速度为 %d 往上飞','runAltitude','100'],
 			[' ', '设置飞机 俯仰方向微调增加 %d.trimValue ，横滚方向微调增加 %d.trimValue', 'trimPitchAndRoll', '0', '0'],
 			[' ', '运行之前的设置','runSet'],
@@ -78,6 +78,7 @@
 			color:["BLACK","WHITE","RED","ORANGE","YELLOW","GREEN","BLUE","PINK","VIOLET"],
 			beep:["ON","OFF","LESS","MEDIUM","MORE"],
 			key:["U1","U2","U3","U4"],
+			speed:["0","20","50","80","100","130","200"],
 		},
 		zh:{
 			onoff: ['亮', '灭'],
@@ -91,6 +92,7 @@
 			color:['黑色','白色','红色','橙色','黄色','绿色','蓝色','粉色','紫色'],
 			beep:["常开","关闭","短鸣","中鸣","长鸣"],
 			key:["U1","U2","U3","U4"],
+			speed:["0","20","50","80","100","130","200"],
 		}
 	}
 	
