@@ -54,7 +54,7 @@
 			[' ', '设置飞机 俯仰方向微调增加 %d.trimValue ，横滚方向微调增加 %d.trimValue', 'trimPitchAndRoll', '0', '0'],
 			[' ', '运行之前的设置','runSet'],
 			[' ', '%d.openAndClose 定高模式','altMode','打开'],
-			['h', '当遥控按了 %d.key 按钮时', 'when_key', 'U1'],
+			['h', '当遥控按了 %d.key 按钮时', 'when_key', 'Key8'],
 			['r', '油门', 'thr'],
 			['r', '俯仰', 'pitch'],
 			['r', '横滚', 'roll'],
@@ -77,7 +77,7 @@
 			openAndClose:['OPEN','CLOSE'],
 			color:["BLACK","WHITE","RED","ORANGE","YELLOW","GREEN","BLUE","PINK","VIOLET"],
 			beep:["ON","OFF","LESS","MEDIUM","MORE"],
-			key:["U1","U2","U3","U4"],
+			key:["Key8","Key7","Key6","Key5"],
 			speed:["0","20","50","80","100","125"],
 		},
 		zh:{
