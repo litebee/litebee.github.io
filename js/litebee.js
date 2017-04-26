@@ -310,18 +310,25 @@
 		}
 	};
 	ext.when_key = function(key){
-		console.log("user press key:"+key);
+		console.log("choose key:"+key);
 		if(flightData.key != userKey)
 		{
-			var tmpKey;
+			var tmpKey = 0;
+			
 			userKey = flightData.key;
-			switch(userKey)
+			console.log("user press key:"+userKey);
+			if(userKey == "1")
 			{
-				case 1: tmpKey = 4; break;
-				case 2: tmpKey = 3; break;
-				case 3: tmpKey = 8; break;
-				case 4: tmpKey = 7; break;
-				default:break;
+				tmpKey = 4;
+			} else if(userKey == "2")
+			{
+				tmpKey = 3;
+			} else if(userKey == "3")
+			{
+				tmpKey = 8;
+			} else if(userKey == "4")
+			{
+				tmpKey = 7;
 			}
 			if(key === ("K"+tmpKey)){
 				return true;
