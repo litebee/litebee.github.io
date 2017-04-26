@@ -313,8 +313,17 @@
 		console.log("user press key:"+key);
 		if(flightData.key != userKey)
 		{
+			var tmpKey;
 			userKey = flightData.key;
-			if(key === ("U"+userKey)){
+			switch(userKey)
+			{
+				case 1: tmpKey = 4; break;
+				case 2: tmpKey = 3; break;
+				case 3: tmpKey = 8; break;
+				case 4: tmpKey = 7; break;
+				default:break;
+			}
+			if(key === ("K"+tmpKey)){
 				return true;
 			}
 		}
