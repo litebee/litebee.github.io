@@ -50,7 +50,7 @@
             [' ', '设置 %d.motorQuad 的电机的转速为 %d.motorPWM','runMotor', "左前方", '0'],
             [' ', '设置让飞机往 %d.flightDir 以速度 %d.speed 飞行','runDirection', "前边", '100'],
             [' ', '设置让飞机往 %d.flightRotate 以速度 %d.speed 旋转','runRotate', "顺时针", '100'],
-            [' ', '设置让飞机以速度为 %d 往 %d 飞','runAltitude','100','上'],
+            [' ', '设置让飞机以速度为 %d 往 %d.flightUpOrDown 飞','runAltitude','100','上'],
 			[' ', '设置飞机 俯仰方向微调增加 %d.trimValue ，横滚方向微调增加 %d.trimValue', 'trimPitchAndRoll', '0', '0'],
 			[' ', '运行之前的设置','runSet'],
 			[' ', '%d.openAndClose 定高模式','altMode','打开'],
