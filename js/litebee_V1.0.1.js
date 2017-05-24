@@ -41,28 +41,28 @@
 			['r', 'flight voltage', 'voltage'],
 		],
 		zh:[
-			[' ', 'Ğ£×¼', 'calibrate'],
-            [' ', 'ÈÃLED %d.led µÆ %d.onoff','runLed','ËùÓĞ','ÁÁ'],
-			[' ', 'ÈÃ²ÊÉ«µÆÁÁ %d.color','colorLed','ºÚÉ«'],
-			[' ', 'ÈÃ·äÃùÆ÷ %d.beep','beeper','¹Ø±Õ'],
-            [' ', 'µç»ú½âËø','armFlight'],
-			[' ', 'µç»úÉÏËø','disarmFlight'],
-            [' ', 'ÉèÖÃ %d.motorQuad µÄµç»úµÄ×ªËÙÎª %d.motorPWM','runMotor', "×óÇ°·½", '0'],
-            [' ', 'ÉèÖÃÈÃ·É»úÍù %d.flightDir ÒÔËÙ¶È %d.speed ·ÉĞĞ','runDirection', "Ç°±ß", '100'],
-            [' ', 'ÉèÖÃÈÃ·É»úÍù %d.flightRotate ÒÔËÙ¶È %d.speed Ğı×ª','runRotate', "Ë³Ê±Õë", '100'],
-            [' ', 'ÉèÖÃÈÃ·É»úÒÔËÙ¶ÈÎª %d Íù %d.flightUpOrDown ·É','runAltitude','100','ÉÏ'],
-			[' ', 'ÉèÖÃ·É»ú ¸©Ñö·½ÏòÎ¢µ÷Ôö¼Ó %d.trimValue £¬ºá¹ö·½ÏòÎ¢µ÷Ôö¼Ó %d.trimValue', 'trimPitchAndRoll', '0', '0'],
-			[' ', 'ÔËĞĞÖ®Ç°µÄÉèÖÃ','runSet'],
-			[' ', '%d.openAndClose ¶¨¸ßÄ£Ê½','altMode','´ò¿ª'],
-			['h', 'µ±Ò£¿Ø°´ÁË %d.key °´Å¥Ê±', 'when_key', 'K4'],
-			['r', 'ÓÍÃÅ', 'thr'],
-			['r', '¸©Ñö', 'pitch'],
-			['r', 'ºá¹ö', 'roll'],
-			['r', 'º½Ïò', 'yaw'],
-			['r', 'º½Ïò½Ç', 'yAngle'],
-			['r', 'ºá¹ö½Ç', 'rAngle'],
-			['r', '¸©Ñö½Ç', 'pAngle'],
-			['r', '·É»úµçÑ¹', 'voltage'],
+			[' ', 'æ ¡å‡†', 'calibrate'],
+            [' ', 'è®©LED %d.led ç¯ %d.onoff','runLed','æ‰€æœ‰','äº®'],
+			[' ', 'è®©å½©è‰²ç¯äº® %d.color','colorLed','é»‘è‰²'],
+			[' ', 'è®©èœ‚é¸£å™¨ %d.beep','beeper','å…³é—­'],
+            [' ', 'ç”µæœºè§£é”','armFlight'],
+			[' ', 'ç”µæœºä¸Šé”','disarmFlight'],
+            [' ', 'è®¾ç½® %d.motorQuad çš„ç”µæœºçš„è½¬é€Ÿä¸º %d.motorPWM','runMotor', "å·¦å‰æ–¹", '0'],
+            [' ', 'è®¾ç½®è®©é£æœºå¾€ %d.flightDir ä»¥é€Ÿåº¦ %d.speed é£è¡Œ','runDirection', "å‰è¾¹", '100'],
+            [' ', 'è®¾ç½®è®©é£æœºå¾€ %d.flightRotate ä»¥é€Ÿåº¦ %d.speed æ—‹è½¬','runRotate', "é¡ºæ—¶é’ˆ", '100'],
+            [' ', 'è®¾ç½®è®©é£æœºä»¥é€Ÿåº¦ä¸º %d å¾€ %d é£','runAltitude','100','ä¸Š'],
+			[' ', 'è®¾ç½®é£æœº ä¿¯ä»°æ–¹å‘å¾®è°ƒå¢åŠ  %d.trimValue ï¼Œæ¨ªæ»šæ–¹å‘å¾®è°ƒå¢åŠ  %d.trimValue', 'trimPitchAndRoll', '0', '0'],
+			[' ', 'è¿è¡Œä¹‹å‰çš„è®¾ç½®','runSet'],
+			[' ', '%d.openAndClose å®šé«˜æ¨¡å¼','altMode','æ‰“å¼€'],
+			['h', 'å½“é¥æ§æŒ‰äº† %d.key æŒ‰é’®æ—¶', 'when_key', 'K4'],
+			['r', 'æ²¹é—¨', 'thr'],
+			['r', 'ä¿¯ä»°', 'pitch'],
+			['r', 'æ¨ªæ»š', 'roll'],
+			['r', 'èˆªå‘', 'yaw'],
+			['r', 'èˆªå‘è§’', 'yAngle'],
+			['r', 'æ¨ªæ»šè§’', 'rAngle'],
+			['r', 'ä¿¯ä»°è§’', 'pAngle'],
+			['r', 'é£æœºç”µå‹', 'voltage'],
 		]
 	}
 	var menus = {
@@ -82,17 +82,17 @@
 			speed:["0","20","50","80","100","125"],
 		},
 		zh:{
-			onoff: ['ÁÁ', 'Ãğ'],
-            led:['ËùÓĞ','A','B','C','D'],
-            motorQuad:["×óÇ°·½","ÓÒÇ°·½","×óºó·½","ÓÒºó·½","ËùÓĞ"],
+			onoff: ['äº®', 'ç­'],
+            led:['æ‰€æœ‰','A','B','C','D'],
+            motorQuad:["å·¦å‰æ–¹","å³å‰æ–¹","å·¦åæ–¹","å³åæ–¹","æ‰€æœ‰"],
             motorPWM:['0','30','60','90'],
-            flightDir:['Ç°±ß',"ºó±ß","×ó±ß","ÓÒ±ß"],
-            flightRotate:['Ë³Ê±Õë','ÄæÊ±Õë'],
-			flightUpOrDown:['ÉÏ','ÏÂ'],
+            flightDir:['å‰è¾¹',"åè¾¹","å·¦è¾¹","å³è¾¹"],
+            flightRotate:['é¡ºæ—¶é’ˆ','é€†æ—¶é’ˆ'],
+			flightUpOrDown:['ä¸Š','ä¸‹'],
 			trimValue:['-30','-20','-10','-5','0','5','10','20','30'],
-			openAndClose:['´ò¿ª','¹Ø±Õ'],
-			color:['ºÚÉ«','°×É«','ºìÉ«','³ÈÉ«','»ÆÉ«','ÂÌÉ«','À¶É«','·ÛÉ«','×ÏÉ«'],
-			beep:["³£¿ª","¹Ø±Õ","¶ÌÃù","ÖĞÃù","³¤Ãù"],
+			openAndClose:['æ‰“å¼€','å…³é—­'],
+			color:['é»‘è‰²','ç™½è‰²','çº¢è‰²','æ©™è‰²','é»„è‰²','ç»¿è‰²','è“è‰²','ç²‰è‰²','ç´«è‰²'],
+			beep:["å¸¸å¼€","å…³é—­","çŸ­é¸£","ä¸­é¸£","é•¿é¸£"],
 			key:["K4","K3","K8","K7"],
 			speed:["0","20","50","80","100","125"],
 		}
@@ -170,9 +170,9 @@
 		if(led == menus.zh.led[0]){
 			led = "ALL";
 		}
-		if(onoff == "ÁÁ"){
+		if(onoff == "äº®"){
 			onoff = "ON";
-		}else if(onoff == "Ãğ"){
+		}else if(onoff == "ç­"){
 			onoff = "OFF";
 		}
         sendMsg({'proto':'runLed','led':led,'onoff':onoff});
@@ -236,9 +236,9 @@
 	
 	ext.runRotate = function(rotate,speed) {
 		console.log("run flight rotate "+rotate+" "+speed);
-		if(rotate == "Ë³Ê±Õë"){
+		if(rotate == "é¡ºæ—¶é’ˆ"){
 			rotate = "CR";
-		}else if(rotate == "ÄæÊ±Õë"){
+		}else if(rotate == "é€†æ—¶é’ˆ"){
 			rotate = "CCR";
 		}
         sendMsg({'proto':'runRotate','flightRotate':rotate,'speed':speed});
@@ -319,9 +319,9 @@
 		return Number(flightData.voltage);
 	};
 	ext.altMode = function(altFlag) {
-		if(altFlag == '´ò¿ª'){
+		if(altFlag == 'æ‰“å¼€'){
 			sendMsg({'proto':'altMode','mode':'OPEN'});
-		}else if(altFlag == '¹Ø±Õ'){
+		}else if(altFlag == 'å…³é—­'){
 			sendMsg({'proto':'altMode','mode':'CLOSE'});
 		}else{
 			sendMsg({'proto':'altMode','mode':altFlag});
